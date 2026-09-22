@@ -1,11 +1,68 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="no">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Min nettside</title>
+    <meta name="description" content="Blomster, sesonger og inspirasjon fra naturen.">
+    <title>Flora | Blomster fra naturen</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Min nettside!</h1>
+    <header class="site-header">
+        <a class="brand" href="#top" aria-label="Flora hjem">flora<span>.</span></a>
+        <nav aria-label="Hovedmeny">
+            <a href="#blomster">Blomster</a>
+            <a href="#sesong">I sesong</a>
+            <a href="#om-flora">Om Flora</a>
+        </nav>
+        <a class="header-action" href="#kontakt">Finn din blomst <span aria-hidden="true">↗</span></a>
+    </header>
+    <main id="top">
+        <section class="hero">
+            <div class="hero-copy">
+                <p class="eyebrow"><span></span> En liten guide til blomster</p>
+                <h1>La naturen<br><em>blomstre</em> hos deg.</h1>
+                <p class="hero-text">Oppdag fargene, duftene og historiene bak blomstene som gjør hver dag litt vakrere.</p>
+                <div class="hero-buttons">
+                    <a class="button button-dark" href="#blomster">Utforsk blomster <span aria-hidden="true">↓</span></a>
+                    <a class="text-link" href="#sesong">Se hva som blomstrer nå <span aria-hidden="true">→</span></a>
+                </div>
+            </div>
+            <div class="hero-art" aria-label="En bukett med rosa blomster">
+                <div class="sun-disc"></div>
+                <div class="flower flower-one"><span></span><span></span><span></span><span></span><i></i></div>
+                <div class="flower flower-two"><span></span><span></span><span></span><span></span><i></i></div>
+                <div class="flower flower-three"><span></span><span></span><span></span><span></span><i></i></div>
+                <div class="stem stem-one"></div><div class="stem stem-two"></div><div class="stem stem-three"></div>
+                <div class="leaf leaf-one"></div><div class="leaf leaf-two"></div><div class="leaf leaf-three"></div>
+                <div class="art-caption">01 <span>Rosa peon</span></div>
+            </div>
+        </section>
+        <section class="intro-strip" id="om-flora">
+            <p class="section-number">01 / 03</p>
+            <p>Blomster er naturens<br><strong>eget språk.</strong></p>
+            <p class="small-copy">Fra den første spiren om våren til de siste kronbladene om høsten. Her finner du inspirasjon til å se nærmere.</p>
+        </section>
+        <section class="flower-section" id="blomster">
+            <div class="section-heading">
+                <div><p class="eyebrow"><span></span> Finn din favoritt</p><h2>Blomster med<br><em>personlighet.</em></h2></div>
+                <a class="text-link" href="#sesong">Se alle blomster <span aria-hidden="true">↗</span></a>
+            </div>
+            <div class="flower-grid">
+                <article class="flower-card card-peony"><div class="card-flower peony-small"></div><p>01</p><h3>Peon</h3><span>Myk &middot; Romantisk</span></article>
+                <article class="flower-card card-tulip"><div class="card-flower tulip-small"></div><p>02</p><h3>Tulipan</h3><span>Frisk &middot; Leken</span></article>
+                <article class="flower-card card-daisy"><div class="card-flower daisy-small"></div><p>03</p><h3>Prestekrage</h3><span>Enkel &middot; Solrik</span></article>
+            </div>
+        </section>
+        <section class="season-section" id="sesong">
+            <div><p class="eyebrow light"><span></span> Akkurat nå</p><h2>Det er tid for<br><em>villblomster.</em></h2></div>
+            <p>Små blomster med stor tilstedeværelse. Finn dem langs veikanten, i hagen eller i en vase på kjøkkenbordet.</p>
+            <a class="button button-light" href="#kontakt">Les sesongguiden <span aria-hidden="true">↗</span></a>
+        </section>
+    </main>
+    <footer id="kontakt"><a class="brand" href="#top">flora<span>.</span></a><p>Et sted for blomsterelskere.</p><p>© 2024 Flora</p></footer>
 </body>
 </html>
