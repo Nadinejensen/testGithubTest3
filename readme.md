@@ -1,2 +1,2 @@
 Dette er en ny test.
-Navnhhhgj
+Nå har jeg laget en nettside om blomster.
